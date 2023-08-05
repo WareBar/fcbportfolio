@@ -1,0 +1,68 @@
+/*
+	syntax for css
+	selecter {
+		property: value;
+	}
+*/
+
+/*asterisk is the universal selecter that will select all elements in html*/
+/*used to style all elements with one modification*/
+*{
+	font-family: "Roboto", sans-serif;
+}
+
+h1, p {
+	font-family: "Montserrat", sans-serif;
+	color: Black;
+}
+
+/* # for id selecter
+
+syntax:
+
+#id {
+	
+}
+
+
+*/
+
+#profile {
+	width: 200px;
+	height: 200px;
+	border-radius:100%;
+}
+
+/*modifying the body's background*/
+body {
+	background-color: #B5FFE3;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23a2dad8' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%238fb6cc' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%237b91c1' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23686db5' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%235548AA' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+
+/* . is for class selecter   */
+.btn:hover{
+	
+	/*font-size: 80%;*/
+	color: White;
+	background-color: Green;
+	border-color: Green;
+}
+
+.btn {
+	border-color: Black;
+}
+
+
+/**/
+#landing{
+	height: 80vh;
+	/*center the contents vertically using flexbox*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
